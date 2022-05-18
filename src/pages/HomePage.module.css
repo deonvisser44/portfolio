@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400&display=swap");
+.homePage {
+  width: 100%;
+  height: 98vh;
+  color: #ff7a00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://i.postimg.cc/P5b9LMKz/homebg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.homePage a {
+  text-decoration: none;
+}
+
+.introWrapper {
+  width: 55%;
+  height: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.introText {
+  width: 55%;
+}
+
+.textWrapper {
+  padding: 0;
+  height: fit-content;
+  text-align: center;
+  font-family: "Chakra Petch";
+}
+
+.textWrapperHead {
+  background-color: white;
+  width: fit-content;
+  padding: 0 14px 10px 14px;
+  margin: auto;
+  line-height: 3.7rem;
+  transform: skew(-7deg);
+  box-shadow: 7px 7px #ff7a00;
+}
+
+.textWrapperHead h1 {
+  transform: skew(7deg);
+  font-size: 3.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+.textWrapper p {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.imageWrapper {
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: MoveUpDown 4s linear infinite;
+}
+
+@keyframes MoveUpDown {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+}
+
+.introWrapper img {
+  height: 100%;
+  width: 100%;
+}
+
+.buttonWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.downloadButton {
+  background-color: #ff7a00;
+  border: none;
+  color: white;
+  font-size: 1.3rem;
+  padding: 6px 10px;
+  display: flex;
+  align-items: center;
+}
+
+.downloadButton:hover {
+  background-color: #fa9130;
+  cursor: pointer;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+  .homePage {
+    align-items: flex-start;
+  }
+
+  .introWrapper {
+    width: 55%;
+    height: 50%;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    justify-content: space-between;
+    margin-top: 20vh;
+  }
+
+  .imageWrapper {
+    height: 80%;
+    display: flex;
+    align-items: center;
+    grid-column: 1;
+    grid-row: 1;
+    justify-content: center;
+    animation: MoveUpDown 4s linear infinite;
+  }
+
+  .introWrapper img {
+    height: 100%;
+    width: 50%;
+  }
+
+  .textWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-column: 1;
+    grid-row: 2;
+    padding: 0;
+    height: fit-content;
+    text-align: center;
+    width: 100%;
+    font-family: "Chakra Petch";
+  }
+
+  .textWrapperHead {
+    width: 100%;
+    text-align: center;
+    padding: 0 0px 10px 0px;
+  }
+
+  .introText {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .homePage {
+    align-items: flex-start;
+    background-image: url("https://i.postimg.cc/x85Y8s0x/Untitled-design-17.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .introWrapper {
+    width: 80%;
+    height: 50%;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    justify-content: space-between;
+    margin-top: 15vh;
+  }
+
+  .imageWrapper {
+    height: 80%;
+    display: flex;
+    align-items: center;
+    grid-column: 1;
+    grid-row: 1;
+    justify-content: center;
+    animation: MoveUpDown 4s linear infinite;
+  }
+
+  .introWrapper img {
+    height: 100%;
+    width: 50%;
+  }
+
+  .textWrapperHead h1 {
+    font-size: 2.5rem;
+  }
+
+  .textWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-column: 1;
+    grid-row: 2;
+    padding: 0;
+    height: fit-content;
+    text-align: center;
+    width: 100%;
+    font-family: "Chakra Petch";
+  }
+
+  .textWrapperHead {
+    width: 100%;
+    text-align: center;
+    padding: 0 0px 10px 0px;
+  }
+
+  .introText {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1365px) {
+  .introWrapper {
+    width: 60%;
+  }
+
+  .textWrapperHead h1 {
+    font-size: 2.7rem;
+  }
+}
+
+@media only screen and (min-device-width: 1400px) {
+  .introWrapper {
+    width: 45%;
+  }
+}

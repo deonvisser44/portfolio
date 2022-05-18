@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400&display=swap");
+
+.projectsPage {
+  margin-top: 0;
+  width: 100%;
+  height: 100vh;
+  font-family: "Chakra Petch";
+  background-image: url("https://i.postimg.cc/y8ZGTdcB/Untitled-design-16.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.projectsPage h1 {
+  color: #ff7a00;
+  margin: 0% 5%;
+  padding-top: 1%;
+}
+
+.projectsWrapper {
+  margin: auto;
+  margin-top: 5%;
+  height: 70%;
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.project {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project h3 {
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 5px 0;
+}
+
+.projectImg {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.projectButtonDiv {
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.projectButtonDiv a {
+  width: 100%;
+  font-size: 1.2rem;
+  padding: 3px 0;
+  border: none;
+  font-family: "Chakra Petch";
+}
+
+.projectButtonDiv button {
+  width: 100%;
+  font-size: 1.2rem;
+  padding: 3px 0;
+  border: none;
+  font-family: "Chakra Petch";
+}
+
+.projectButtonDiv button:hover {
+  cursor: pointer;
+}
+
+.siteButton {
+  background-color: #ff7a00;
+}
+
+.gitHubButton {
+  background-color: white;
+}
+
+.projectDesc {
+  color: white;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.projectAlt {
+  width: 15%;
+}
+
+.projectAlt h3 {
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 5px 0;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+  .projectsPage {
+    height: fit-content;
+    padding-bottom: 5vh;
+  }
+  .projectsWrapper {
+    flex-direction: column;
+  }
+  .project {
+    width: 45%;
+  }
+
+  .projectAlt {
+    width: 22%;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .projectsPage {
+    height: fit-content;
+    background-image: url("https://i.postimg.cc/0QcP2W5t/Untitled-design-22.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-bottom: 5vh;
+  }
+
+  .projectsPage h1 {
+    text-align: center;
+  }
+  .projectsWrapper {
+    flex-direction: column;
+  }
+  .project {
+    width: 80%;
+  }
+
+  .projectAlt {
+    width: 47%;
+  }
+
+  .projectButtonDiv button {
+    font-size: 1rem;
+  }
+}
