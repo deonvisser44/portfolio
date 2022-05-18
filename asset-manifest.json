@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.e1cf06c1.css",
+    "main.js": "/portfolio/static/js/main.7be689bf.js",
+    "static/media/DeonVisserCV2022.pdf": "/portfolio/static/media/DeonVisserCV2022.a8df170396f2971d909b.pdf",
+    "static/media/blog.JPG": "/portfolio/static/media/blog.351a265be740b6f9d0b6.JPG",
+    "static/media/onlinestore.JPG": "/portfolio/static/media/onlinestore.892d89bccd301ec35ed4.JPG",
+    "static/media/cryptowatch.JPG": "/portfolio/static/media/cryptowatch.41f228b3a00ef1008b11.JPG",
+    "static/media/emoji.png": "/portfolio/static/media/emoji.45b54e3096d12020c4c1.png",
+    "index.html": "/portfolio/index.html",
+    "main.e1cf06c1.css.map": "/portfolio/static/css/main.e1cf06c1.css.map",
+    "main.7be689bf.js.map": "/portfolio/static/js/main.7be689bf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e1cf06c1.css",
+    "static/js/main.7be689bf.js"
+  ]
+}
