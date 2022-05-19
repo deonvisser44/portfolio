@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.be71054f.css",
+    "main.css": "/static/css/main.e38fa99f.css",
     "main.js": "/static/js/main.989ca98a.js",
     "static/media/DeonVisserCV2022.pdf": "/static/media/DeonVisserCV2022.a8df170396f2971d909b.pdf",
     "static/media/mobileprojectbg.svg": "/static/media/mobileprojectbg.0b190f2540246369afb4.svg",
@@ -9,13 +9,12 @@
     "static/media/onlinestore.JPG": "/static/media/onlinestore.892d89bccd301ec35ed4.JPG",
     "static/media/cryptowatch.JPG": "/static/media/cryptowatch.41f228b3a00ef1008b11.JPG",
     "static/media/emoji.png": "/static/media/emoji.45b54e3096d12020c4c1.png",
-    "static/media/mobilecontactbg.svg": "/static/media/mobilecontactbg.1bdac16916dfca532427.svg",
     "index.html": "/index.html",
-    "main.be71054f.css.map": "/static/css/main.be71054f.css.map",
+    "main.e38fa99f.css.map": "/static/css/main.e38fa99f.css.map",
     "main.989ca98a.js.map": "/static/js/main.989ca98a.js.map"
   },
   "entrypoints": [
-    "static/css/main.be71054f.css",
+    "static/css/main.e38fa99f.css",
     "static/js/main.989ca98a.js"
   ]
 }
