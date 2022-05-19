@@ -1,7 +1,7 @@
 {
   "name": "react-portfolio",
   "version": "0.1.0",
-  "homepage": "https://deonvisser44.github.io/portfolio",
+  "homepage": "https://deonvisser.com",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
