@@ -167,7 +167,7 @@ background: radial-gradient(circle, rgb(250, 178, 110) 0%, #ff7a00 100%);
   .projectsPage {
     height: fit-content;
     padding-bottom: 5vh;
-    height: 160vh;
+    height: 180vh;
   }
 
 .project {
