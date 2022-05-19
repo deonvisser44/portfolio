@@ -55,7 +55,6 @@
 .projectButtonDiv a {
   width: 100%;
   font-size: 1.2rem;
-  color: black;
   padding: 3px 0;
   border: none;
   font-family: "Chakra Petch";
@@ -65,6 +64,7 @@
   width: 100%;
   font-size: 1.2rem;
   padding: 3px 0;
+  color: black;
   border: none;
   font-family: "Chakra Petch";
 }
@@ -122,7 +122,16 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
     padding-bottom: 5vh;
+    height: 160vh;
   }
+
+.project {
+  margin-bottom: 5vh;
+}
+
+.projectAlt {
+  margin-bottom: 5vh;
+}
 
   .projectsPage h1 {
     text-align: center;

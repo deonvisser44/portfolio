@@ -57,10 +57,10 @@
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .ContactPage {
-    background-image: url("../assets/mobilecontactbg.svg");
+    background-image: url('https://i.postimg.cc/bN46XSDD/Untitled-design-24.png');
     background-repeat: no-repeat;
-    background-size: 98% 105%;
-    padding-top: 5vh;
+    background-size: 100% 100%;
+    padding-top: 3vh;
     height: 95vh;
   }
 
