@@ -2,6 +2,9 @@
 
 .nav {
   display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
@@ -10,6 +13,7 @@
   color: #ff7a00;
   padding: 0.4rem 0;
   font-family: "Chakra Petch";
+  z-index: 2;
 }
 
 .nav h2 {

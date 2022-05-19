@@ -8,6 +8,7 @@ const skills = [
   "React.js",
   "Next.js",
   "Redux",
+  "Tailwind CSS",
   "Git",
   "Figma",
 ];
@@ -18,13 +19,8 @@ function AboutAndSkillsPage() {
       <div className={classes.aboutWrapper}>
         <h1>About</h1>
         <p>
-          I am currently pursuing a Bachelor's Degree in Computer Science in
-          part time and have taken it upon myself to become a web developer.{" "}
-          <br /> <br />
-          Since starting my studies, I have developed an immense curiosity as to
-          the underlying technology in the devices and applications I use,
-          promting me to take up the technologies I have, and looking forward to
-          learning loads more. <br />
+          I have always found the impact of technology on our lives to be fascinating, and would love to play a part in shaping the technology people use in their daily lives.<br /> <br />
+          Hence, I am currently pursuing a Bachelor's Degree in Computer Science, and have taken it upon myself to become a web developer.
         </p>
       </div>
 
@@ -42,9 +38,9 @@ function AboutAndSkillsPage() {
         <h1>Work Experience</h1>
         <h3>2021 - Present: Freelancing</h3>
         <p>
-          I have completed multiple jobs for small businesses and worked with
+          I have completed multiple jobs for small businesses and collaborated with
           development teams, giving me experiences ranging from creating
-          wireframes, to deploying web-based applications.
+          wireframes to deploying web-based applications.
         </p>
       </div>
     </div>

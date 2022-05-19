@@ -12,9 +12,9 @@
 
 .ContactPage h1 {
   color: #ff7a00;
-  margin: 0% 0% 0 5%;
+  margin: 0%;;
   padding-top: 1%;
-  text-align: left;
+  text-align: center;
 }
 
 .ContactPage a {
@@ -57,9 +57,11 @@
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .ContactPage {
-    background-image: url("https://i.postimg.cc/VvgrwB21/Untitled-design-20.png");
+    background-image: url("../assets/mobilecontactbg.svg");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 98% 105%;
+    padding-top: 5vh;
+    height: 95vh;
   }
 
   .ContactPage h1 {

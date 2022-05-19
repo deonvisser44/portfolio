@@ -14,6 +14,7 @@
   color: #ff7a00;
   margin: 0% 5%;
   padding-top: 1%;
+  text-align: center;
 }
 
 .projectsWrapper {
@@ -54,6 +55,7 @@
 .projectButtonDiv a {
   width: 100%;
   font-size: 1.2rem;
+  color: black;
   padding: 3px 0;
   border: none;
   font-family: "Chakra Petch";
@@ -116,7 +118,7 @@
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .projectsPage {
     height: fit-content;
-    background-image: url("https://i.postimg.cc/0QcP2W5t/Untitled-design-22.png");
+    background-image: url('../assets/mobileprojectbg.svg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     padding-bottom: 5vh;

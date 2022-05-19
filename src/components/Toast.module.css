@@ -24,3 +24,17 @@
         transform: skew(0deg);
     }
 }
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+    .toast {
+        width: 35%;
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .toast {
+        width: 65%;
+        font-size: 1rem;
+    }
+}
