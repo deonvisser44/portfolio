@@ -3,7 +3,7 @@
 .projectsPage {
   margin-top: 0;
   width: 100%;
-  height: 100vh;
+  height: 120vh;
   font-family: "Chakra Petch";
   /* background-image: url("https://i.postimg.cc/y8ZGTdcB/Untitled-design-16.png");
   background-repeat: no-repeat;
@@ -92,7 +92,44 @@ background: radial-gradient(circle, rgb(250, 178, 110) 0%, #ff7a00 100%);
 }
 
 .projectAlt {
-  width: 15%;
+  width: 20%;
+  justify-content: center;
+}
+
+.projectButtonDivAlt {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.6rem;
+}
+
+.projectButtonDivAlt a {
+  width: 100%;
+  font-size: 1.2rem;
+  padding: 3px 0;
+  border: none;
+  font-family: "Chakra Petch";
+}
+
+.projectButtonDivAlt button {
+  width: 100%;
+  font-size: 1.2rem;
+  padding: 3px 0;
+  color: black;
+  border: none;
+  font-family: "Chakra Petch";
+}
+
+.projectButtonDivAlt button:hover {
+  cursor: pointer;
+}
+
+.projectImgAlt {
+  display: block;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-self: center;
+  margin: auto;
 }
 
 .projectAlt h3 {
@@ -100,6 +137,13 @@ background: radial-gradient(circle, rgb(250, 178, 110) 0%, #ff7a00 100%);
   text-align: center;
   font-size: 1.5rem;
   margin: 5px 0;
+}
+
+.projectDescAlt {
+  color: white;
+  text-align: center;
+  font-size: 1.2rem;
+  width: 100%;
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
@@ -122,15 +166,13 @@ background: radial-gradient(circle, rgb(250, 178, 110) 0%, #ff7a00 100%);
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .projectsPage {
     height: fit-content;
-    /* background-image: url('../assets/mobileprojectbg.svg');
-    background-repeat: no-repeat;
-    background-size: 100% 100%; */
     padding-bottom: 5vh;
     height: 160vh;
   }
 
 .project {
   margin-bottom: 5vh;
+  width: 90% !important;
 }
 
 .projectAlt {
@@ -148,7 +190,7 @@ background: radial-gradient(circle, rgb(250, 178, 110) 0%, #ff7a00 100%);
   }
 
   .projectAlt {
-    width: 47%;
+    width: 70%;
   }
 
   .projectButtonDiv button {

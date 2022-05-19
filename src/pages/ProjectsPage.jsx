@@ -37,11 +37,11 @@ function ProjectsPage() {
         <div className={classes.projectAlt}>
           <h3>Coin Watch</h3>
           <img
-            className={classes.projectImg}
+            className={classes.projectImgAlt}
             src={cryptowatch}
             alt="onlinestore"
           />
-          <div className={classes.projectButtonDiv}>
+          <div className={classes.projectButtonDivAlt}>
           <a
               href="https://deonvisser44.github.io/crypto-watch/"
               target="_blank"
@@ -57,7 +57,7 @@ function ProjectsPage() {
               <button className={classes.gitHubButton}>GitHub</button>
             </a>
           </div>
-          <p className={classes.projectDesc}>React.js / Firebase / CSS</p>
+          <p className={classes.projectDescAlt}>React.js / Firebase / CSS</p>
         </div>
         <div className={classes.project}>
           <h3>Personal Blog</h3>
