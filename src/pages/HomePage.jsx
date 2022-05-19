@@ -17,7 +17,7 @@ function HomePage() {
             Hi, I'm Deon, I have a passion for helping people bring their technical ideas to life.
           </p>
           <div className={classes.buttonWrapper}>
-            <a href={resume} download="DeonVisserCV.pdf" className={classes.downloadButton}>Download Resume<HiOutlineDocumentDownload /></a>
+            <a href={resume} download="DeonVisserCV.pdf" className={classes.downloadButton}>Get Resume<HiOutlineDocumentDownload /></a>
           </div>
         </div>
       </div>
