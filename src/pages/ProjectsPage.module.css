@@ -3,27 +3,21 @@
 .projectsPage {
   margin-top: 0;
   width: 100%;
-  height: 120vh;
+  height: fit-content;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
   font-family: "Chakra Petch";
-  /* background-image: url("https://i.postimg.cc/y8ZGTdcB/Untitled-design-16.png");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  background-color: #fa9435; */
-  /* background: rgb(255,197,143);
-background: radial-gradient(circle, rgb(250, 178, 110) 0%, #ff9735 100%); */
-background-color: #f58444;
-background-image: linear-gradient(112deg, #f58444 0%, #F7CE68 100%);
-
+  background-color: #f58444;
+  background-image: linear-gradient(112deg, #f58444 0%, #f7ce68 100%);
+  padding-bottom: 4vh;
 }
 
 .projectsPage h1 {
   color: #373737;
   margin: 0%;
-  padding-top: 1%;
+  padding: 4vh 0;
   text-align: center;
 }
 
@@ -85,7 +79,6 @@ background-image: linear-gradient(112deg, #f58444 0%, #F7CE68 100%);
   background-color: #373737;
   color: white !important;
 }
-
 
 .gitHubButton {
   background-color: white;
@@ -171,17 +164,18 @@ background-image: linear-gradient(112deg, #f58444 0%, #F7CE68 100%);
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .projectsPage {
-    height: 180vh;
+    height: fit-content;
+    padding-bottom: 3vh;
   }
 
-.project {
-  margin-bottom: 5vh;
-  width: 90% !important;
-}
+  .project {
+    margin-bottom: 5vh;
+    width: 90% !important;
+  }
 
-.projectAlt {
-  margin-bottom: 5vh;
-}
+  .projectAlt {
+    margin-bottom: 5vh;
+  }
 
   .projectsPage h1 {
     text-align: center;

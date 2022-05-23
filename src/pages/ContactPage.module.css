@@ -49,9 +49,13 @@
   color: #ff7a00;
 }
 
-@media screen and (max-width: 480px) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
   .ContactPage {
-    background-image: none;
+    background-image: url('https://i.postimg.cc/bN46XSDD/Untitled-design-24.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 4vh;
+    height: 100vh;
   }
 }
 
@@ -60,8 +64,8 @@
     background-image: url('https://i.postimg.cc/bN46XSDD/Untitled-design-24.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    padding-top: 3vh;
-    height: 98vh;
+    padding-top: 4vh;
+    height: 100vh;
   }
 
   .ContactPage h1 {
