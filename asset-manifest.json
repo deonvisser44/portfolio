@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.31be2a65.css",
+    "main.css": "/static/css/main.47cc4b77.css",
     "main.js": "/static/js/main.65077289.js",
     "static/media/DeonVisserCV2022.pdf": "/static/media/DeonVisserCV2022.a8df170396f2971d909b.pdf",
     "static/media/mobileaboutbg.svg": "/static/media/mobileaboutbg.383508b78f65594fa418.svg",
@@ -9,11 +9,11 @@
     "static/media/cryptowatch.JPG": "/static/media/cryptowatch.41f228b3a00ef1008b11.JPG",
     "static/media/emoji.png": "/static/media/emoji.45b54e3096d12020c4c1.png",
     "index.html": "/index.html",
-    "main.31be2a65.css.map": "/static/css/main.31be2a65.css.map",
+    "main.47cc4b77.css.map": "/static/css/main.47cc4b77.css.map",
     "main.65077289.js.map": "/static/js/main.65077289.js.map"
   },
   "entrypoints": [
-    "static/css/main.31be2a65.css",
+    "static/css/main.47cc4b77.css",
     "static/js/main.65077289.js"
   ]
 }
