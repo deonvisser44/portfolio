@@ -2,7 +2,7 @@ import React from "react";
 import classes from "./ProjectsPage.module.css";
 import onlineStore from "../assets/onlinestore.JPG";
 import blog from "../assets/blog.JPG";
-import cryptowatch from "../assets/cryptowatch.JPG";
+import cryptowatch from "../assets/cryptoscreenshot.JPG";
 
 function ProjectsPage() {
   return (
@@ -35,7 +35,7 @@ function ProjectsPage() {
           <p className={classes.projectDesc}>React.js / Redux / CSS</p>
         </div>
         <div className={classes.projectAlt}>
-          <h3>Coin Watch</h3>
+          <h3>Crypto Watch</h3>
           <img
             className={classes.projectImgAlt}
             src={cryptowatch}
