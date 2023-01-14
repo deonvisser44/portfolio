@@ -83,6 +83,12 @@
   font-family: "Chakra Petch";
 }
 
+.experienceWrapper h2{
+  margin: 0.5rem;
+  color: white;
+  font-family: "Chakra Petch";
+}
+
 .experienceWrapper h3{
   margin: 0.5rem;
   color: white;
@@ -94,6 +100,7 @@
   font-family: "Chakra Petch";
   font-size: 1.2rem;
   margin: 0;
+  padding-bottom: 1rem;
 }
 
 @media only screen 
