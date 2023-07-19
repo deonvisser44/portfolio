@@ -25,16 +25,18 @@
   margin-top: 0%;
   height: 70%;
   width: 95%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns */
+  grid-gap: 10px; /* Gap between grid items */
+  justify-content: center;
 }
 
 .project {
-  width: 35%;
+  width: 60%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin: auto;
 }
 
 .project h3 {
@@ -80,8 +82,16 @@
   color: white !important;
 }
 
+.siteButton:hover {
+  background-color: #575757;
+}
+
 .gitHubButton {
   background-color: white;
+}
+
+.gitHubButton:hover {
+  background-color: #e7e7e7;
 }
 
 .projectDesc {
@@ -91,8 +101,9 @@
 }
 
 .projectAlt {
-  width: 20%;
+  width: 30%;
   justify-content: center;
+  margin: auto;
 }
 
 .projectButtonDivAlt {
@@ -124,7 +135,7 @@
 
 .projectImgAlt {
   display: block;
-  width: 80%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   justify-self: center;
@@ -151,7 +162,7 @@
     padding-bottom: 5vh;
   }
   .projectsWrapper {
-    flex-direction: column;
+    grid-template-columns: 1fr; /* One column */
   }
   .project {
     width: 45%;
@@ -181,7 +192,7 @@
     text-align: center;
   }
   .projectsWrapper {
-    flex-direction: column;
+    grid-template-columns: 1fr; /* One column */
     height: fit-content;
   }
   .project {

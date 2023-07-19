@@ -6,8 +6,9 @@ const skills = [
   'CSS',
   'Tailwind CSS',
   'JavaScript',
-  'React.js',
-  'Next.js',
+  'TypeScript',
+  'ReactJS',
+  'NextJS',
   'Redux',
   'NestJS',
   'Postgres',
@@ -20,10 +21,10 @@ function AboutAndSkillsPage() {
         <h1>About</h1>
         <p>
           I have always found the impact of technology on our lives to be
-          fascinating, and would love to play a part in shaping the technology
+          fascinating and would love to play a part in shaping the technology
           people use in their daily lives.
           <br /> <br />
-          Hence, I am currently pursuing a Bachelor's Degree in Computer
+          I am currently pursuing a Bachelor's Degree in Computer
           Science, and have taken it upon myself to become a web developer.
         </p>
       </div>
