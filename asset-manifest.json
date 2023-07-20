@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.2d6900f2.css",
+    "main.css": "/static/css/main.87435bc1.css",
     "main.js": "/static/js/main.f14eef6e.js",
     "static/media/DeonVisserCV2022.pdf": "/static/media/DeonVisserCV2022.a8df170396f2971d909b.pdf",
     "static/media/mobileaboutbg.svg": "/static/media/mobileaboutbg.383508b78f65594fa418.svg",
@@ -10,11 +10,11 @@
     "static/media/cryptoscreenshot.JPG": "/static/media/cryptoscreenshot.00fd9c40bf14c5145a14.JPG",
     "static/media/cambo-events.JPG": "/static/media/cambo-events.476288073dc5aaa9d3fa.JPG",
     "index.html": "/index.html",
-    "main.2d6900f2.css.map": "/static/css/main.2d6900f2.css.map",
+    "main.87435bc1.css.map": "/static/css/main.87435bc1.css.map",
     "main.f14eef6e.js.map": "/static/js/main.f14eef6e.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d6900f2.css",
+    "static/css/main.87435bc1.css",
     "static/js/main.f14eef6e.js"
   ]
 }
