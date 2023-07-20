@@ -1,24 +1,27 @@
-@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400&display=swap');
 
 .ContactPage {
   width: 100%;
   height: 100vh;
-  background-image: url("https://i.postimg.cc/SN5YXwDC/Untitled-design-3.png");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  font-family: "Chakra Petch";
+  background: rgb(246, 130, 22);
+  background: linear-gradient(
+    0deg,
+    rgba(246, 130, 22, 1) 0%,
+    rgba(46, 33, 4, 1) 100%
+  );
+  font-family: 'Chakra Petch';
   text-align: center;
 }
 
 .ContactPage h1 {
-  color: #ff7a00;
-  margin: 0%;;
-  padding-top: 1%;
+  color: white;
+  margin: 0%;
+  padding-top: 5%;
   text-align: center;
 }
 
 .ContactPage a {
-  color: #ff7a00;
+  color: white;
 }
 
 .ContactPage a:hover {
@@ -46,14 +49,17 @@
   font-size: 3rem;
   display: flex;
   justify-content: space-around;
-  color: #ff7a00;
+  color: white;
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
   .ContactPage {
-    background-image: url('https://i.postimg.cc/bN46XSDD/Untitled-design-24.png');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background: rgb(246, 130, 22);
+    background: linear-gradient(
+      0deg,
+      rgba(246, 130, 22, 1) 0%,
+      rgba(46, 33, 4, 1) 100%
+    );
     padding-top: 4vh;
     height: 100vh;
   }
@@ -61,9 +67,12 @@
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .ContactPage {
-    background-image: url('https://i.postimg.cc/bN46XSDD/Untitled-design-24.png');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background: rgb(246, 130, 22);
+    background: linear-gradient(
+      0deg,
+      rgba(246, 130, 22, 1) 0%,
+      rgba(46, 33, 4, 1) 100%
+    );
     padding-top: 4vh;
     height: 100vh;
   }

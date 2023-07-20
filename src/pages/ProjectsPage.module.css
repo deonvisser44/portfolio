@@ -95,7 +95,7 @@
 }
 
 .projectDesc {
-  color: white;
+  color: black;
   text-align: center;
   font-size: 1.2rem;
 }
@@ -150,7 +150,7 @@
 }
 
 .projectDescAlt {
-  color: white;
+  color: black;
   text-align: center;
   font-size: 1.2rem;
   width: 100%;

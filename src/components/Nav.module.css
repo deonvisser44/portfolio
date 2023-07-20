@@ -36,11 +36,12 @@
 .navList p {
   margin: 0;
   padding: 0;
+  color: white;
 }
 
 .navList p:hover {
   cursor: pointer;
-  text-decoration: underline;
+  color: #ff7a00;
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
