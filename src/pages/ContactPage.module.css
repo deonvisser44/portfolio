@@ -18,7 +18,8 @@
   margin: 0%;
   padding-top: 5%;
   text-align: center;
-  font-size: 2.3rem;
+  font-size: 2.8rem;
+  text-shadow: 2px 2px #ff7700;
 }
 
 .ContactPage a {
