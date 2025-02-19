@@ -2,7 +2,7 @@ import React from 'react';
 import classes from './HomePage.module.css';
 import emoji from '../assets/emoji.png';
 import { HiOutlineDocumentDownload } from 'react-icons/hi';
-import resume from '../assets/DeonVisserCV2022.pdf';
+import latestCV from "../assets/DeonVisserCV-2025.pdf";
 
 function HomePage() {
   return (
@@ -11,7 +11,7 @@ function HomePage() {
         <div className={classes.introText}>
           <div className={classes.textWrapper}>
             <div className={classes.textWrapperHead}>
-              <h1>Web Developer</h1>
+              <h1>Full-Stack Developer</h1>
             </div>
             <p>
               Hi, I'm Deon, I have a passion for helping people bring their
@@ -19,7 +19,7 @@ function HomePage() {
             </p>
             <div className={classes.buttonWrapper}>
               <a
-                href={resume}
+                href={latestCV}
                 download='DeonVisserCV.pdf'
                 className={classes.downloadButton}
               >

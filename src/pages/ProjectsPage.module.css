@@ -19,6 +19,7 @@
   margin: 0%;
   padding: 4vh 0;
   text-align: center;
+  font-size: 2.3rem;
 }
 
 .projectsWrapper {
@@ -33,6 +34,14 @@
 
 .project {
   width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.projectAlt {
+  width: 30%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -77,39 +86,9 @@
   cursor: pointer;
 }
 
-.siteButton {
-  background-color: #373737;
-  color: white !important;
-}
-
-.siteButton:hover {
-  background-color: #575757;
-}
-
-.gitHubButton {
-  background-color: white;
-}
-
-.gitHubButton:hover {
-  background-color: #e7e7e7;
-}
-
-.projectDesc {
-  color: black;
-  text-align: center;
-  font-size: 1.2rem;
-}
-
-.projectAlt {
-  width: 30%;
-  justify-content: center;
-  margin: auto;
-}
-
 .projectButtonDivAlt {
   display: flex;
   justify-content: space-between;
-  margin-top: 0.6rem;
 }
 
 .projectButtonDivAlt a {
@@ -133,13 +112,36 @@
   cursor: pointer;
 }
 
+.siteButton {
+  background-color: #373737;
+  color: white !important;
+}
+
+.siteButton:hover {
+  background-color: #575757;
+}
+
+.gitHubButton {
+  background-color: white;
+}
+
+.gitHubButton:hover {
+  background-color: #e7e7e7;
+}
+
+.projectDesc {
+  color: black;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
 .projectImgAlt {
   display: block;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 10px;
   justify-self: center;
-  margin: auto;
 }
 
 .projectAlt h3 {

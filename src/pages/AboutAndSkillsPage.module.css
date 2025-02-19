@@ -4,10 +4,10 @@
   width: 100%;
   height: fit-content;
   display: grid;
-  background-image: url('https://i.postimg.cc/xdPzrvMR/Untitled-design-14.png');
+  background-image: url("https://i.postimg.cc/xdPzrvMR/Untitled-design-14.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  padding: 50px 0;
+  padding: 100px 0;
   gap: 70px;
 }
 
@@ -21,9 +21,10 @@
 
 .aboutWrapper h1,
 .skillsWrapper h1 {
-  color: #FF7A00;
+  color: #ff7a00;
   font-family: "Chakra Petch";
   margin: 0;
+  font-size: 2.3rem;
 }
 
 .aboutWrapper p {
@@ -49,7 +50,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
 }
 
 .skill {
@@ -85,19 +85,24 @@
   margin: auto;
 }
 
-.experienceWrapper h1{
+.experienceWrapper h1 {
   margin: 0;
-  color: #FF7A00;
+  color: #ff7a00;
   font-family: "Chakra Petch";
 }
 
-.experienceWrapper h2{
+.experienceWrapper h2 {
   margin: 0.5rem;
-  color: white;
+  color: #ff7a00;
   font-family: "Chakra Petch";
+  margin-top: 3rem;
 }
 
-.experienceWrapper h3{
+.experienceWrapper h3 {
+  color: white;
+}
+
+.experienceWrapper h3 {
   margin: 0.5rem;
   color: white;
   font-family: "Chakra Petch";
@@ -111,26 +116,25 @@
   padding-bottom: 1rem;
 }
 
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1023px) {
-  .aboutWrapper, .skillsWrapper, .experienceWrapper {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+  .aboutWrapper,
+  .skillsWrapper,
+  .experienceWrapper {
     width: 60%;
   }
 }
 
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) {
-
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .aboutAndSkillsPage {
-    background-image: url('../assets/mobileaboutbg.svg');
+    background-image: url("../assets/mobileaboutbg.svg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: fit-content;
     padding-bottom: 5vh;
   }
-  .aboutWrapper, .skillsWrapper, .experienceWrapper {
+  .aboutWrapper,
+  .skillsWrapper,
+  .experienceWrapper {
     width: 80%;
   }
 

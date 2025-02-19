@@ -18,6 +18,7 @@
   margin: 0%;
   padding-top: 5%;
   text-align: center;
+  font-size: 2.3rem;
 }
 
 .ContactPage a {
@@ -44,6 +45,7 @@
 
 .linksWrapper {
   margin: auto;
+  margin-top: 5rem;
   width: 40%;
   height: fit-content;
   font-size: 3rem;
