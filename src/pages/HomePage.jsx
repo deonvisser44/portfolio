@@ -1,7 +1,7 @@
-import React from 'react';
-import classes from './HomePage.module.css';
-import emoji from '../assets/emoji.png';
-import { HiOutlineDocumentDownload } from 'react-icons/hi';
+import React from "react";
+import classes from "./HomePage.module.css";
+import emoji from "../assets/emoji.png";
+import { HiOutlineDocumentDownload } from "react-icons/hi";
 import latestCV from "../assets/DeonVisserCV-2025.pdf";
 
 function HomePage() {
@@ -20,7 +20,7 @@ function HomePage() {
             <div className={classes.buttonWrapper}>
               <a
                 href={latestCV}
-                download='DeonVisserCV.pdf'
+                download="DeonVisserCV.pdf"
                 className={classes.downloadButton}
               >
                 Get Resume
@@ -30,7 +30,7 @@ function HomePage() {
           </div>
         </div>
         <div className={classes.imageWrapper}>
-          <img src={emoji} alt='me' />
+          <img src={emoji} alt="me" />
         </div>
       </div>
     </div>

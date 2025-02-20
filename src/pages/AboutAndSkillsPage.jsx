@@ -27,10 +27,9 @@ function AboutAndSkillsPage() {
           I have always found the impact of technology on our lives to be
           fascinating and would love to play a part in shaping the technology
           people use in their daily lives.
-          <br /> <br />
-          I hold a Bachelor's Degree in Computer Science and have three years of
-          experience as a full-stack and mobile app developer, working with both
-          startups and established firms.
+          <br /> <br />I hold a Bachelor's Degree in Computer Science and have
+          three years of experience as a full-stack and mobile app developer,
+          working with both startups and established firms.
         </p>
       </div>
 

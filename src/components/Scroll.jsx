@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import classes from './Scroll.module.css';
-import { BiArrowToTop } from 'react-icons/bi';
+import classes from "./Scroll.module.css";
+import { BiArrowToTop } from "react-icons/bi";
 
 const Scroll = () => {
   const [showButton, setShowButton] = useState(false);
@@ -22,7 +22,7 @@ const Scroll = () => {
   return (
     <>
       {showButton && (
-        <button onClick={scrollToTop} className={classes['scroll-button']}>
+        <button onClick={scrollToTop} className={classes["scroll-button"]}>
           <BiArrowToTop />
         </button>
       )}

@@ -2,7 +2,14 @@ import React from "react";
 import classesDesktop from "./Project-Desktop.module.css";
 import classesMobile from "./Project-Mobile.module.css";
 
-export default function Project({ image, site, github, isDesktop, description, title }) {
+export default function Project({
+  image,
+  site,
+  github,
+  isDesktop,
+  description,
+  title,
+}) {
   const classes = isDesktop ? classesDesktop : classesMobile;
   return (
     <div className={classes.project}>
